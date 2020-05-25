@@ -1,57 +1,31 @@
-title: BLEX
-email: lab10922@gmail.com
-description: My Sub Blog
-author: Yimsoo 
-github: https://github.com/YimsooSon
-about: I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django.
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
+name: Herring Cove
+author: Herring Cove
+baseurl: /herring-cove
+description: theme for jekyll
+github: http://www.github.com/yimsooson
+twitter: http://www.twitter.com/
+facebook: http://www.facebook.com
+linkedin: http://www.linkedin.com
+email: rnpatel[at]me.com
+location: 42°2'16"N   70°12'47"W
+disqus: diqus-username
 
-enableTags: true
-tagarray: []
+##Make sure to edit the above fields, especially for disqus.
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
 
-social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/YimsooSon"
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 
-share:
-  twitter_username: github.io
-  fb_appid: 1749788565247320
-
-urls:
-    - text: About Me
-      url: /about/
-    - text: My Projects
-      url: /projects/
-    - text: XML Feed
-      url: /feed.xml
-
-url: "https://agusmakmun.github.io"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
-markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: ['development']
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
