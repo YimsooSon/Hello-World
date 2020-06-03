@@ -1,44 +1,71 @@
-This repository is no longer maintained. 
-============
+Freshman21
+==========
 
-Herring Cove
-============
+Freshman21 is a Jekyll blog theme, base on theme [Freshman](http://github.com/yulijia/freshman). 
 
-Herring Cove is a clean and responsive theme for Jekyll. 
+A tribute to WordPress Theme Twenty-Twelve and Twenty-eleven.
+
+Enjoy.
 
 
-### Overview 
+![Screen](http://i.imgur.com/oSp7kacl.png)
 
-* Fixed Sidebar with social links
-* Minimal design 
-* Comments by Disqus
-* Social Sharing abilities 
-* Easy to configure
-* Based on Bootstrap
+### Version 2.1 update 2016.06.06
 
-### Screenshots
+- master branch: the simplest template, original version with
+	* Open Graph META Tags
+	* Microdata(schema.org)
 
-![screenshot](/images/screenshot1.png)
-![screenshot](/images/screenshot2.png)
+- gh-pages branch: master branch with 
 
-### Setup
+	* [google analytics js template](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_analytics.js)
+        * [BackToTop js script](https://github.com/yulijia/freshman21/tree/gh-pages/js)
+        * <q>readmore</q> module
+        * [keyboard shortcuts for pagination](http://yulijia.net/freshman21/news/2016/05/24/new-features.html)
+	* font awesome icon
+	* [Google search](https://github.com/yulijia/freshman21/blob/gh-pages/_includes/google_search.js)
 
-1. Install Jekyll
-2. Fork or [download](https://github.com/arnp/herring-cove/archive/master.zip) this theme repo
-3. Edit the `_config.yml` file
+Clone master branch: 
 
-You can change the showcase image by replacing `showcase.jpg` file in the `images` folder. I'll try to find a better way to do this soon. 
+` git clone https://github.com/yulijia/freshman21.git -b master --single-branch`
 
-### Download
+Clone gh-pages branch: 
 
-[download](https://github.com/arnp/herring-cove/archive/master.zip)
+`git clone https://github.com/yulijia/freshman21.git -b gh-pages --single-branch`
 
-### License
-* [MIT](http://opensource.org/licenses/MIT)
 
--------------
-Herring Cove is always a work in progress and as such, I hope to clean up the code and add features as time permits. Feel free to add your own additions. 
+### A Summary of Features
 
-*What's with the name?*
+- Provide single column and two columns layout
+- Powerful configure file
+- Comments by Disqus
+- Support LaTeX (by MathJax)
+- Syntax highlighting
+- Multiple Languages support 
+    * English
+    * Chinese
+    * Japanese (Contributed by [kokeiro001](https://github.com/kokeiro001))
+    * Polish (Contributed by [Derson5](https://github.com/Derson5))
+    * Korean (Contributed by [Clifford Choi](https://github.com/ulgoon))
+    * Russian (Contributed by [Anton Alekseev](https://github.com/alexeyev))
+    * Turkish (Contributed by [Muhammet Kara](https://github.com/mrkara))
+    * Indonesian (Contributed by [Samsul Ma'arif](https://github.com/samsulmaarif))
 
-[Herring Cove](http://www.capecodbeachchair.com/beachguide/index.cfm?page=3&BeachID=5) is a beach on Cape Cod in Provincetown, Massachusetts. If you're in the area, be sure to check it out!
+### How to install this theme?
+
+```
+# please make sure you have already installed git tools and ruby tools(gem)
+$ gem install sass
+$ gem install jekyll
+$ git clone https://github.com/yulijia/freshman21.git
+$ mv freshman21/ yourblogname.github.io/
+
+```
+
+### Demo
+
+Single column, please see [my own blog](http://yulijia.net/en/)
+
+Two columns, please see the [theme website](http://yulijia.net/freshman21/)
+
+
